@@ -1,5 +1,8 @@
 import sys
-from typing import Union, Literal, List
+try:
+    from typing import Literal
+except ImportError:
+    from typing_extensions import Literal
 from PIL import Image 
 import streamlit as st
 import requests
