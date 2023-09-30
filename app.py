@@ -1,3 +1,5 @@
+import sys
+from typing import Union, Literal, List
 from PIL import Image 
 import streamlit as st
 import requests
